@@ -1,5 +1,7 @@
 body {
-    background-color: Gainsboro;
+    background-color: rgb(69, 69, 69);
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -7,7 +9,26 @@ h1 {
     margin-left: 20px;
 }
 
-/* #Hw{
-    width: 75px;
+.contain{
+    width: 100%;
     height: auto;
-} */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    background-color: rgb(219, 219, 219);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.header h1{
+   font-size: 75px;
+}
